@@ -10,7 +10,7 @@ header {
 
 .imagem1 {
 	/*display: flex;*/
-	background-image: url("google_maps.JPG");
+	background-image: url("google_maps.jpg");
 	background-position: center;
 	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image to cover the entire container */
