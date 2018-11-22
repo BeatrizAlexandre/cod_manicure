@@ -4,16 +4,16 @@ body{
 
 header {
 	border-style: solid;
-	font-family: Palatino, sans-serif;
+	font-family: Palatino, sans-serif;*/
 	border-width: 0.25rem;
-	/*color: rgb(30,144,255);*/
+	color: rgb(30,144,255);
 	color: rgb(0,0,0);
 	margin: 1rem;
 	width:33rem ;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	left:0;
-    transition: left .5s;
+    /*transition: left .5s;*/
 
 
 }
@@ -37,14 +37,16 @@ header {
 }
 
 .fas .fa-arrow-right{
+	position: absolute;
 	display: inline;
-	color: rgb(0,0,0);
+	color: rgb(236,62,66);
 	background-color: red;
 
 }
 
 .fas .fa-question{
-	position: relative;
+	position: absolute;
+	color: rgb(236,62,66);
 	background-color: orange;
 	display: inline;
 
