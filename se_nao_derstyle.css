@@ -1,0 +1,29 @@
+.texto a{
+	border-style: solid;
+	font-family: Palatino, sans-serif;
+	font-size: 1.25rem;
+	color: rgb(0,0,0);
+	text-decoration: none;
+	position: relative;
+
+/*  position: absolute;*/
+	/*text-align: center;*/
+}
+
+body{
+	background-color: rgb(255,255,255);
+}
+
+/*.imagem1 {
+	position: relative;
+	width: 100%;
+	background-image: url("aprocura.jpg");
+	background-position: center;
+	background-repeat: no-repeat; 
+  	background-size: cover; 
+}*/
+
+.fas .fa-undo-alt{
+	position: fixed;
+	bottom: 0;
+}
