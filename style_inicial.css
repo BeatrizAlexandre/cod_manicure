@@ -8,6 +8,7 @@
 
 .imagem1 {
 	/*display: flex;*/
+	width: 100%;
 	background-image: url("aprocura.jpg");
 	background-position: center;
 	background-repeat: no-repeat; /* Do not repeat the image */
@@ -15,7 +16,7 @@
 }
 .col a{
 	color: rgb(0,0,0);
-	margin-left: 5rem;
+	margin-left: 2rem;
 }
 
 
