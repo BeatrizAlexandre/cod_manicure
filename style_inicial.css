@@ -1,37 +1,27 @@
 .container{
 	width: 2rem;
 	background-color: rgb(30,144,255);
+	position: fixed;
+	bottom: 0;
+	padding: 1rem;
 }
 
 .imagem1 {
 	/*display: flex;*/
-	background-image: url("google_maps.jpg");
+	background-image: url("aprocura.jpg");
 	background-position: center;
 	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image to cover the entire container */
 }
 .col a{
 	color: rgb(0,0,0);
-	margin-left: 2rem
-
-}
-
-.fas .fa-search{
-	margin-left: 3rem;
-	color: rgb(0,0,0);
-
-	
-}
-
-.fas .fa-question{
-	position: absolute;
-	display: inline;
-
+	margin-left: 5rem;
 }
 
 
 .texto{
 	border-style: solid;
+	visibility: hidden;
 	font-family: Palatino, sans-serif;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -40,9 +30,14 @@
 	background-color: rgb(30,144,255);
 	/*text-align: center;*/
 	justify-content: space-evenly;
-	left: -100%;
+	left: -90%;
+	transition: left .5s
 
+}
 
+.fas .fa-exclamation: hover+ .texto{
+	visibility: visible;
+	left: 0;
 }
 
 
