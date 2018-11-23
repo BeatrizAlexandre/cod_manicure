@@ -5,26 +5,10 @@ body{
 .imagem1{
 	width:100%;
   	position:absolute; 
-
 }
 
 .imagem2{
 	width:100%;
 	position: fixed; 
-	
 	bottom: 0;
 }
-
-/*
-<img src="imagem1" />
-
-<img style="..." src="imagem1" />
-
-<img style="..." src="imagem2" />
-
-no lugar dos ... você adiciona:
-
-position:absolute; left:1px; top:1px; z-index: 1;
-
-position:absolute; left:1px; top:1px; z-index: 2;
-*/
