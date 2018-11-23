@@ -1,21 +1,6 @@
-body{
-	position: relative;
-}
-
-header {
-	border-style: solid;
-	font-family: Palatino, sans-serif;*/
-	border-width: 0.25rem;
-	color: rgb(30,144,255);
-	color: rgb(0,0,0);
-	margin: 1rem;
-	width:33rem ;
-	position: fixed;
-	bottom: 0;
-	left:0;
-    /*transition: left .5s;*/
-
-
+.container{
+	width: 2rem;
+	background-color: rgb(30,144,255);
 }
 
 .imagem1 {
@@ -25,41 +10,40 @@ header {
 	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image to cover the entire container */
 }
-
-.parent {
-	background-color: rgb(30,144,255);
-	padding: 1rem;
-	display: flex;
-	list-style: none;
-	size: 15rem;
-	position: relative;
+.col a{
+	color: rgb(0,0,0);
+	margin-left: 2rem
 
 }
 
-.fas .fa-arrow-right{
-	position: absolute;
-	display: inline;
-	color: rgb(236,62,66);
-	background-color: red;
+.fas .fa-search{
+	margin-left: 3rem;
+	color: rgb(0,0,0);
 
+	
 }
 
 .fas .fa-question{
 	position: absolute;
-	color: rgb(236,62,66);
-	background-color: orange;
 	display: inline;
 
 }
 
-/*.fas fa-arrow-right:hover + .header{
-	position: fixed;
-	bottom: 0;
-}*/
 
-/*header:hover {
-	left: 0;
-}*/
+.texto{
+	border-style: solid;
+	font-family: Palatino, sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: rgb(0,0,0);
+	position: fixed;
+	background-color: rgb(30,144,255);
+	/*text-align: center;*/
+	justify-content: space-evenly;
+	left: -100%;
+
+
+}
 
 
 
