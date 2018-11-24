@@ -12,3 +12,8 @@ body{
 	position: fixed; 
 	bottom: 0;
 }
+.logo{
+	width:100%;
+	position:fixed;
+	top: 35%;
+}

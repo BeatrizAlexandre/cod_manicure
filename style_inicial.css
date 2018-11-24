@@ -1,6 +1,7 @@
 .container{
 	width: 2rem;
-	background-color: rgb(30,144,255);
+	/*background-color: rgb(30,144,255); */
+	background-color: palevioletred;
 	position: fixed;
 	bottom: 0;
 	padding: 1rem;
