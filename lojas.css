@@ -8,6 +8,7 @@ header{
 	margin: 1rem;
 	width: 10rem ;
 	position: fixed;
+	text-align: center;
 }
 
 .loja{
@@ -15,26 +16,113 @@ header{
 	font-size: 2rem;
 	font-weight: bold;
 	color: rgb(0,0,0);
-	text-align: center;
 	justify-content: space-evenly;
 }
 
+.fachada{
+	width: 28%;
+	position: absolute;
+	left: 14rem;
+	top: 0.5rem;
+}
+
+
+main{
+	margin: 0.5rem;
+	width: 30rem ;
+	position: fixed;
+	bottom: 33rem;
+}
+
+.produto1{
+	width: 20%;
+	position: absolute;
+	align-content: center;
+	left: 0.1rem;
+	top: -0.5rem;
+}
+
+.info{
+	width: 50%;
+	left: 6rem;
+	top: 1rem;
+	position: absolute;
+	align-content: center;
+}
+
+.produto2{
+	width: 15%;
+	position: absolute;
+	align-content: center;
+	left: 0.7rem;
+	top: 6rem;
+}
+
+.info2{
+	width: 50%;
+	left: 6rem;
+	top: 7rem;
+	position: absolute;
+	align-content: center;
+}
+
+.produto3{
+	width: 15%;
+	position: absolute;
+	align-content: center;
+	left: 0.7rem;
+	top: 12rem;
+}
+
+.info3{
+	width: 50%;
+	left: 6rem;
+	top: 13rem;
+	position: absolute;
+	align-content: center;
+}
+
+.produto4{
+	width: 15%;
+	position: absolute;
+	align-content: center;
+	left: 0.7rem;
+	top: 18rem;
+}
+
+.info4{
+	width: 50%;
+	left: 6rem;
+	top: 19rem;
+	position: absolute;
+	align-content: center;
+}
+
+.produto5{
+	width: 15%;
+	position: absolute;
+	align-content: center;
+	left: 0.7rem;
+	top: 24rem;
+}
+
+.info5{
+	width: 50%;
+	left: 6rem;
+	top: 25rem;
+	position: absolute;
+	align-content: center;
+}
 
 footer{
-	border-style: solid;
-	border-width: 0.25rem;
-	color: rgb(30,144,255);
-	color: rgb(0,0,0);
-	margin: 1rem;
-	width:33rem ;
+	margin: 1.5rem;
+	width: 28rem ;
 	position: fixed;
 	bottom: 0;
-	left: 0;
+	left: -1rem;
 }
 
 .voltar{
+	width: 4%;
 	position: absolute;
-	color: rgb(236,62,66);
-	background-color: orange;
-	display: inline;
 }
