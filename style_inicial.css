@@ -31,7 +31,17 @@ a:hover{
 	left: 0;
 }
 
+.pin_este{
+	width:15%;
+	position:fixed;
+	top: 23%;
+	left: 38%;
+}
 
-
-
+.pin_loja{
+	width:13%;
+	position:fixed;
+	top: 17%;
+	left: 75%;	
+}
 
