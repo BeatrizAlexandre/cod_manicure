@@ -1,29 +1,29 @@
 header{
-	background-color: red;
+	background-color: yellow;
 	border-style: solid;
-	border-width: 0.25rem;
-	padding: 0.25rem;
+	border-width: 0.2rem;
+	padding: 0.5rem;
 	margin-left: auto;
 	margin-right: auto;
 	margin: 1rem;
-	width: 10rem ;
+	width: 14rem ;
 	position: fixed;
 	text-align: center;
 }
 
-.loja{
+.esterilizacao{
 	font-family: Palatino, sans-serif;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 	color: rgb(0,0,0);
 	justify-content: space-evenly;
 }
 
 .fachada{
-	width: 28%;
+	width: 22%;
 	position: absolute;
-	left: 14rem;
-	top: 0.5rem;
+	left: 17rem;
+	top: 1.25rem;
 }
 
 
@@ -34,12 +34,12 @@ main{
 	bottom: 33rem;
 }
 
-.produto1{
-	width: 20%;
+.maquina1{
+	width: 16%;
 	position: absolute;
 	align-content: center;
-	left: 0.1rem;
-	top: -0.5rem;
+	left: 0.75rem;
+	top: 0.8rem;
 }
 
 .info{
@@ -50,12 +50,12 @@ main{
 	align-content: center;
 }
 
-.produto2{
-	width: 15%;
+.maquina2{
+	width: 16%;
 	position: absolute;
 	align-content: center;
 	left: 0.7rem;
-	top: 6rem;
+	top: 7rem;
 }
 
 .info2{
@@ -66,12 +66,12 @@ main{
 	align-content: center;
 }
 
-.produto3{
-	width: 15%;
+.maquina3{
+	width: 16%;
 	position: absolute;
 	align-content: center;
 	left: 0.7rem;
-	top: 12rem;
+	top: 13rem;
 }
 
 .info3{
@@ -82,12 +82,12 @@ main{
 	align-content: center;
 }
 
-.produto4{
-	width: 15%;
+.maquina4{
+	width: 16%;
 	position: absolute;
 	align-content: center;
 	left: 0.7rem;
-	top: 18rem;
+	top: 19.25rem;
 }
 
 .info4{
@@ -98,12 +98,12 @@ main{
 	align-content: center;
 }
 
-.produto5{
-	width: 15%;
+.maquina5{
+	width: 16%;
 	position: absolute;
 	align-content: center;
 	left: 0.7rem;
-	top: 24rem;
+	top: 25rem;
 }
 
 .info5{
