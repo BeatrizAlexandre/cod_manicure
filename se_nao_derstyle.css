@@ -4,7 +4,7 @@
 	font-size: 1.25rem;
 	color: rgb(0,0,0);
 	text-decoration: none;
-	position: relative;
+	position: relative
 
 /*  position: absolute;*/
 	/*text-align: center;*/
@@ -22,8 +22,20 @@ body{
 	background-repeat: no-repeat; 
   	background-size: cover; 
 }*/
-
+.container{
+	width: 2rem;
+	/*background-color: rgb(30,144,255); */
+	background-color: palevioletred;
+	position: fixed;
+	bottom: 0;
+	padding: 1rem;
+}
 .fas .fa-undo-alt{
 	position: fixed;
 	bottom: 0;
+}
+
+.col a{
+	color: rgb(0,0,0);
+	margin-left: 2rem;
 }

@@ -71,3 +71,11 @@ body{
 .esmalte{
   width: 110%;
 }
+
+.texto {
+  border-style: none;
+  font-family: Palatino, sans-serif;
+  font-size: 4rem;
+  color: rgb(0,0,0);
+  text-decoration: none;
+  position: relative
