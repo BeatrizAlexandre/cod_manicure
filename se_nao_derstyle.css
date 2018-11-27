@@ -1,13 +1,32 @@
-.texto a{
+.texto{
 	border-style: solid;
 	font-family: Palatino, sans-serif;
-	font-size: 1.25rem;
+	font-size: 0.975rem;
 	color: rgb(0,0,0);
-	text-decoration: none;
-	position: relative
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
 
-/*  position: absolute;*/
-	/*text-align: center;*/
+.título{
+	width: 23rem;
+	background-color: palevioletred;
+	position: fixed;
+	top: -4rem;
+	padding: 1rem;
+	font-family: Palatino, sans-serif;
+	font-size: 1.7rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+.paragrafo{
+	padding-top: 1rem;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	text-align: justify;
 }
 
 body{
